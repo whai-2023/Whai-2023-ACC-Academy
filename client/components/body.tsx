@@ -1,22 +1,20 @@
-
+import { Link } from 'react-router-dom'
+import No from './no'
 
 export default function Body() {
   return (
     <>
       <div className="indexBodyContainer"> 
         <div className="indexQuestion">
-
-            <input type="checkbox" name="answer" value="yes" /> Yes
-
+            <Link to={'/questionnaire/'}>
+                <p>Yes</p>
+            </Link>
         </div>
         <div className="indexQuestion">
-
-            <input type="checkbox" name="answer" value="no" /> No
-
+            <Link to={'/no/'}>
+                <p>No</p>
+            </Link>
         </div>
-        <div className="submitContainer">
-          <button type="submit">Submit</button>
-        </div> 
       </div> 
     </>  
   )

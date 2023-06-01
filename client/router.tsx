@@ -1,3 +1,5 @@
+import No from './components/no'
+
 import {
     createBrowserRouter,
     createRoutesFromElements,
@@ -8,9 +10,13 @@ import {
 
 
   export const routes = createRoutesFromElements(
-    <Route path="/" element={<App />}>
+   <Route path="/">
+      
+        <Route path='no' element={<No />} />
+        <Route path="/" element={<App />} />
         {/* <Route path='questionnaire' element={<Questionnaire />} />
-         */}
+        <Route path='result' element={<Results />} /> */}
+        
     </Route>
 )
 

@@ -1,12 +1,10 @@
-
-
-export default function Footer() {
+export default function Footer2() {
     return (
     <div className="footer-container">
         <div className="left-content">
           <div>
             <div className="speech-balloon">
-                <span className="text">Are you injured?</span>
+                <span className="text">Go back to work!</span>
             </div>
           </div>  
         </div>

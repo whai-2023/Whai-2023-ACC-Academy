@@ -6,7 +6,7 @@
   "main": "server/index.js",
   "scripts": {
     "start": "run-p webpack server",
-    "dev": "run-p client:watch server:watch",
+    "dev": "vite",
     "webpack": "webpack --config client/webpack.config.js",
     "server": "ts-node server/index.ts",
     "client:watch": "npm run webpack -- --watch",
@@ -78,7 +78,8 @@
   },
   "dependencies": {
     "express": "^4.17.2",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "vite": "^4.3.9"
   },
   "prettier": {
     "semi": false,

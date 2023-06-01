@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom'
+import Header from './header'
+
 function App() {
   return (
-    <div>
-      <h1>App</h1>
-      <p>React development has begun!</p>
+    <div className="header">
+        <Header />
     </div>
   )
 }

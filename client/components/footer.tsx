@@ -11,7 +11,7 @@ export default function Footer() {
           </div>  
         </div>
         <div className="right-content">
-          <img src='/images/secretary.png' alt="Secretary Cartoon" />
+          <img className="image-size" src='client/public/images/secretary.png' alt="Secretary Cartoon" />
         </div>
     </div>
     )

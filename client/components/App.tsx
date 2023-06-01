@@ -1,11 +1,20 @@
-import { Link } from 'react-router-dom'
 import Header from './header'
+import Body from './body'
+import Footer from './footer'
 
 function App() {
   return (
+    <>
     <div className="header">
-        <Header />
+      <Header />
     </div>
+    <div className="body">
+      <Body />
+    </div>
+    <div className="footer">
+      <Footer />
+    </div>
+    </>
   )
 }
 

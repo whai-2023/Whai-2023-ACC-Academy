@@ -1,9 +1,20 @@
+import Header from './header'
+import Body from './body'
+import Footer from './footer'
+
 function App() {
   return (
-    <div>
-      <h1>App</h1>
-      <p>React development has begun!</p>
+    <>
+    <div className="header">
+      <Header />
     </div>
+    <div className="body">
+      <Body />
+    </div>
+    <div className="footer">
+      <Footer />
+    </div>
+    </>
   )
 }
 

@@ -5,27 +5,10 @@
   "repository": "https://github.com/dev-academy-challenges/react-boilerplate.git",
   "main": "server/index.js",
   "scripts": {
-    "start": "run-p webpack server",
     "dev": "vite",
-    "webpack": "webpack --config client/webpack.config.js",
-    "server": "ts-node server/index.ts",
-    "client:watch": "npm run webpack -- --watch",
-    "server:watch": "nodemon server/index.ts",
-    "test": "jest --watch --noStackTrace",
+    "test": "vitest",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-typescript",
-      "@babel/preset-env",
-      [
-        "@babel/preset-react",
-        {
-          "runtime": "automatic"
-        }
-      ]
-    ]
   },
   "eslintConfig": {
     "extends": "@devacademy/eslint-config/react",
@@ -77,6 +60,7 @@
     "webpack-cli": "^4.9.2"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
     "express": "^4.17.2",
     "ts-node": "^10.9.1",
     "vite": "^4.3.9"

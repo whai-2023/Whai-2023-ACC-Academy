@@ -90,3 +90,8 @@ body {
     border-color: transparent transparent transparent red;
   }
   
+  .image-size {
+    width: 200px; 
+    height: auto; 
+  }
+  

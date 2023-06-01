@@ -1,5 +1,6 @@
 import No from './components/no'
 
+
 import {
     createBrowserRouter,
     createRoutesFromElements,
@@ -14,8 +15,8 @@ import {
       
         <Route path='no' element={<No />} />
         <Route path="/" element={<App />} />
-        {/* <Route path='questionnaire' element={<Questionnaire />} />
-        <Route path='result' element={<Results />} /> */}
+        {/* <Route path='questionnaire' element={<Questionnaire />} /> */}
+        {/* <Route path='result' element={<Results />} /> */}
         
     </Route>
 )

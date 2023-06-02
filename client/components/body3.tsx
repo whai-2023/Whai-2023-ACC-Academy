@@ -30,7 +30,7 @@ export default function Body(props: Props) {
   return (
     <form onSubmit={handleSubmit}>
       <div className="indexBodyContainer">
-        <p>Choices</p>
+        <p>Choices:</p>
         <div>
           <div>
             <input
